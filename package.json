@@ -2,6 +2,7 @@
   "name": "copy-assets",
   "version": "1.0.0",
   "description": "Copy assets with specific extensions, prefix, suffix",
+  "homepage": "https://github.com/Xisabla/copy-assets",
   "preferGlobal": true,
   "bin": "./dist/cli.js",
   "main": "dist/index.js",
@@ -12,6 +13,14 @@
   },
   "keywords": [ "copy", "assets", "webpack", "import", "extension", "prefix", "suffix" ],
   "author": "Gautier Miquet <xisabla.dev@gmail.com> (https://github.com/Xisabla)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Xisabla/copy-assets.git"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^12.6.7",
