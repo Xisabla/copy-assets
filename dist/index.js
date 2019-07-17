@@ -104,7 +104,6 @@ function copy(config) {
     }
     var files = getFiles(src);
     var filteredFiles = filterFiles(files, whitelist, blacklist);
-    console.log(files);
     filteredFiles.forEach(function (file) {
         var distFile = path_1.default.join(distPath, file.slice(srcPath.length));
         if (!fs_1.default.existsSync(path_1.default.dirname(distFile))) {

@@ -12,7 +12,6 @@ if (process.argv.length > 2) {
   if (typeof config === 'boolean') {
     usage()
   } else {
-    console.log(config, '\n') // TODO: Remove
     copy(config)
   }
 } else {

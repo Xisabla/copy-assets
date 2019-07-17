@@ -21,7 +21,6 @@ if (process.argv.length > 2) {
         usage();
     }
     else {
-        console.log(config, '\n'); // TODO: Remove
         index_1.default(config);
     }
 }

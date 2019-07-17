@@ -157,8 +157,6 @@ export default function copy (config: CopyConfig): void {
   const files = getFiles(src)
   const filteredFiles = filterFiles(files, whitelist, blacklist)
 
-  console.log(files)
-
   filteredFiles.forEach(file => {
     let distFile = path.join(distPath, file.slice(srcPath.length))
 
