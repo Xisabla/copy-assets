@@ -1,6 +1,6 @@
 {
   "name": "copy-assets",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Copy assets with specific extensions, prefix, suffix",
   "homepage": "https://github.com/Xisabla/copy-assets",
   "preferGlobal": true,
@@ -27,11 +27,14 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "^12.6.7",
-    "@types/webpack": "^4.4.35",
-    "ts-node": "^8.3.0",
-    "tslint": "^5.18.0",
+    "@types/node": "^12.19.9",
+    "@types/webpack": "^4.41.25",
+    "ts-node": "^8.10.2",
+    "tslint": "^5.20.1",
     "tslint-config-standard": "^8.0.1",
-    "typescript": "^3.5.3"
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "minimist": "^1.2.5"
   }
 }
